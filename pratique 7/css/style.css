@@ -1,22 +1,63 @@
-.header .wrapper{
-    height: 80px;
-    align-items: center;
-    text-align: center;
+.header .wrapper {
+    max-height: 80px;
+
 }
-.velo{
+
+.velo {
     display: flex;
-    flex-direction: row 1fr 1fr 1fr;
-    padding-right: 80px;
-    padding-left: 80px;
+    align-content: center;
     align-items: center;
-    justify-content:space-between;
-   
-    
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     padding: 0;
     flex-direction: row 1fr 1fr 1fr 1fr;
     gap: 50px;
+    font-style: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color:#D300B7;
+}
+ li a {
+    color: black;
+}
+
+.wrapper  a:hover {
+    color: #D300B7;
+}
+
+h1 {
+    font-style: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.bouton {
+    color: #D300B7;
+    border: 3px solid #D300B7;
+    border-radius: 100px;
+    padding: 10px 24px;
+    font-style: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+.bouton:hover{
+    background-color: #D300B7;
+}
+.bouton a:hover{
+    color: white;
 }
