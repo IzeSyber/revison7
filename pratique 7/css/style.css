@@ -1,3 +1,7 @@
+
+header{
+    position: sticky;
+}
 .header .wrapper {
     max-height: 80px;
 
@@ -10,7 +14,7 @@
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-
+    
 }
 
 ul {
@@ -27,13 +31,14 @@ ul {
 
 a {
     text-decoration: none;
-    color:#D300B7;
+    color: #D300B7;
 }
- li a {
+
+li a {
     color: black;
 }
 
-.wrapper  a:hover {
+.wrapper a:hover {
     color: #D300B7;
 }
 
@@ -55,9 +60,54 @@ h1 {
     font-size: 18px;
     line-height: 100%;
 }
-.bouton:hover{
+
+.bouton:hover {
     background-color: #D300B7;
 }
-.bouton a:hover{
+
+.bouton a:hover {
     color: white;
+}
+
+section.hero {
+    height: 650px;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.hero .wrapper {
+    height: 50%;
+    width: 480px;
+    margin: 80px 150px 0px 0px;
+    padding: 20px 80px 150px 80px;
+    background-size: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.hero .wrapper h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #D300B7;
+}
+
+.hero .wrapper p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    line-height: 160%;
+}
+
+.hero .wrapper .bouton {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 0px 50px;
 }
