@@ -248,6 +248,9 @@ img.zoom {
 .tired {
     position: absolute;
     z-index: 2;
-    margin-right: 100px;
-    size: 50%;
+   
+    max-width: 100%;
+    
+    height: auto; 
+    width: 150px;
 }
