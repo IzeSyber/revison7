@@ -245,3 +245,9 @@ img.zoom {
     padding: 30px;
     border-radius: 10px;
 }
+.tired {
+    position: absolute;
+    z-index: 2;
+    margin-right: 100px;
+    size: 50%;
+}
