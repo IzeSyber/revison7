@@ -60,6 +60,7 @@ h1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
+    margin: 5px;
 }
 
 .bouton:hover {
@@ -112,8 +113,111 @@ section.hero {
     justify-content: center;
     margin: 0px 50px 0px 50px;
 }
-.contenu .wrapper{
+
+.contenu .wrapper {
     background-color: #222;
     height: 1000px;
     text-align: center;
+
+
+}
+
+.titre h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0px;
+    color: white;
+    padding-top: 150px;
+}
+
+.titre p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 160%;
+    margin-bottom: 70px;
+}
+
+.photo {
+
+    display: flex;
+    flex-direction: column 1fr 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+}
+
+.photo h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #D300B7;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.card {
+    margin: 0px;
+    background-color: white;
+    width: 375px;
+    height: 550px;
+    height: auto;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.card img {
+    width: 330px;
+}
+
+.card p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 160%;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+.expand {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+footer {
+    height: 300px;
+    text-align: center;
+}
+
+footer .wrapper span {
+    padding: 30px;
+    font-size: 50px;
+    border: 3px solid #D300B7;
+    border-radius: 80px;
+    background-color: #D300B7;
+    margin: 40px 20px 0px 20px;
+    color: white;
+}
+
+footer .wrapper span:hover{
+    background-color: black;
+     border: 3px solid black;
+}
+footer .wrapper p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+}
+.hero .bouton:hover{
+    color: white;
+}
+.card .bouton:hover{
+    color: white;
 }
