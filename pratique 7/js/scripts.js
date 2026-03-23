@@ -12,7 +12,7 @@ function openModal() {
     const image = document.createElement("img");
     image.src = path;
     image.classList.add("zoom");
-
+console.log("click");
     modal.appendChild(image);
     modal.classList.add("visible");
 
